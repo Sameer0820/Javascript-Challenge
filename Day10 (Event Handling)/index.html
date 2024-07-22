@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background-color: #121212;
+      color: white;
+    }
+    button {
+      cursor: pointer;
+    }
+    img {
+      width: 200px;
+      visibility: visible;
+    }
+    div {
+      margin: 20px;
+    }
+    .container {
+      background-color: pink;
+      width: 100px;
+      height: 100px;
+      text-align: center;
+    }
+    ul {
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <!-- Task 1 -->
+    <div>
+      <p>Chai aur Code</p>
+      <button class="btn">Change Text</button>
+    </div>
+
+    <!-- Task 2 -->
+    <div>
+      <img
+        src="https://images.pexels.com/photos/1658967/pexels-photo-1658967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        alt=""
+      />
+      <div></div>
+      <button class="img-btn">Hide Image</button>
+    </div>
+
+    <!-- Task 3&4 -->
+    <div>
+      <div class="container">I am a container</div>
+    </div>
+
+    <!-- Task 5&6 -->
+    <div>
+      <input type="text" , id="text" />
+      <p class="dis-text">Display Text:</p>
+    </div>
+
+    <!-- Task 7 -->
+    <div>
+      <form id="newForm">
+        <label for="name">Enter Name</label>
+        <input type="text" id="username" placeholder="Enter name" />
+        <button type="submit" id="submit-btn">Submit</button>
+      </form>
+    </div>
+
+    <!-- Task 8 -->
+    <div>
+      <label for="smartphones">Choose a brand</label>
+      <select id="dropdown" name="smartphones">
+        <option value="none">Select</option>
+        <option value="Samsung">Samsung</option>
+        <option value="Apple">Apple</option>
+        <option value="Motorola">Motorola</option>
+        <option value="Oneplus">Oneplus</option>
+      </select>
+      <p id="brand">The brand selected :</p>
+    </div>
+
+    <!-- Task 9 -->
+    <div>
+      <ul id="carlist">
+        <li>Mercedes</li>
+        <li>BMW</li>
+        <li>Audi</li>
+        <li>Porsche</li>
+        <li>Ferrari</li>
+      </ul>
+      <p id="cars">The selected car brand:</p>
+    </div>
+
+    <!-- Task 10 -->
+    <div>
+        <ul id="parent">
+            <li>Child 1</li>
+        </ul>
+        <button id="addchild">Add Child</button>
+        <p id="child">The selected child:</p>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
